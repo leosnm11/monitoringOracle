@@ -2,10 +2,10 @@
   "name": "oracle",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/app.js",
   "scripts": {
-    "server": "set UV_THREADPOOL_SIZE=100 && nodemon --max-old-space-size=114 --experimental-modules index.js",
-    "start": "set UV_THREADPOOL_SIZE=100 && node --max-old-space-size=114 --experimental-modules index.js",
+    "server": "set UV_THREADPOOL_SIZE=100 && nodemon --max-old-space-size=114 --experimental-modules ./src/app.js",
+    "start": "set UV_THREADPOOL_SIZE=100 && node --max-old-space-size=114 --experimental-modules ./src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
