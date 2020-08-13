@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const http = process.env.IP || localhost;
+const http = process.env.HOSTIP || localhost;
 
 export const swaggerDocuments = {
   swagger: '2.0',

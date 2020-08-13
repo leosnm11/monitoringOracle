@@ -1,9 +1,9 @@
 import express from 'express';
-import dbOracle from './routes/oracle.js';
+import dbOracle from '../routes/oracle.js';
 // import cluster from 'cluster';
 // import os from 'os';
 import swaggerUi from 'swagger-ui-express';
-import { swaggerDocuments } from './doc.js';
+import { swaggerDocuments } from '../config/doc.js';
 // const numCPUs = os.cpus().length;
 
 const app = express();

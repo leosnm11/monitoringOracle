@@ -1,8 +1,9 @@
 import oracledb from 'oracledb';
 import allSelect from '../helpers/Select.js';
 
+const libOracle = process.env.LD_LIBRARY_PATH;
 oracledb.initOracleClient({
-  libDir: 'C:\\Users\\u003350\\Documents\\dboracle\\instantclient_19_6',
+  libDir: libOracle,
 });
 oracledb.outFormat = oracledb.OUT_FORMAT_OBJECT;
 oracledb.prefetchRows = 10000;
