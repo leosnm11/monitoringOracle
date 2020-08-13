@@ -8,7 +8,6 @@ ADD https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-i
 
 RUN alien -i  --scripts  ./instantclient19.5-basiclite.rpm && rm ./instantclient19.5-basiclite.*
 
-RUN apt-get install python3-psycopg2 libaio1 libaio-dev -y && apt-get remove alien -y && pip install -r requirements.txt
 
 ENV LD_LIBRARY_PATH="/usr/lib/oracle/19.5/client(64)/lib/${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
 
