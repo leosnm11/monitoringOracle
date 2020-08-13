@@ -32,8 +32,6 @@ Mais antes vamos a algumas explicações:
 - Caso o ambiente sejá Windows na pasta services tem um arquivo chamado **oracleTransaction.js** ne está comantado a variável de ambiente sendo necessário descomentar;
 - Outra informação queria utilizar a função de cluster basta descomentar as linhas no arquivo **app.js** conforme imagem abaixo:
 
-:::image type="content" source="./images/images1.png" alt-text="app.js":::
-
 ```bash
 # git clone https://github.com/leosnm11/monitoringOracle.git
 # cd monitoringOracle/
