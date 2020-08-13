@@ -17,9 +17,11 @@ Todos na arquitetura 64x.
 
 Agora abaixo baixar o arquivo e já ter extraído o mesmo, será necessário criar as variaveis de ambiente abaixo:
 
+```bash
+No ambiente linux:
 export LD_LIBRARY_PATH={local do arquivo extraído}
-
 export HOSTIP={IP do host, caso não seja informado irá subir o serviço como localhost esse campo é opcional}
+```
 
 ## 2. Segundo passo
 
