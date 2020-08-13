@@ -1,10 +1,10 @@
 import oracledb from 'oracledb';
 import allSelect from '../config/Select.js';
 
-// const libOracle = process.env.LD_LIBRARY_PATH;
-// oracledb.initOracleClient({
-//   libDir: libOracle,
-// });
+const libOracle = process.env.LD_LIBRARY_PATH;
+oracledb.initOracleClient({
+  libDir: libOracle,
+});
 oracledb.outFormat = oracledb.OUT_FORMAT_OBJECT;
 oracledb.prefetchRows = 10000;
 oracledb.poolMax = 4;
