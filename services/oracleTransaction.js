@@ -1,5 +1,5 @@
 import oracledb from 'oracledb';
-import allSelect from '../helpers/Select.js';
+import allSelect from '../config/Select.js';
 
 const libOracle = process.env.LD_LIBRARY_PATH;
 oracledb.initOracleClient({
